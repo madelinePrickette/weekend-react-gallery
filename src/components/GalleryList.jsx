@@ -8,9 +8,7 @@ function GalleryList ({galleryList}) {
                 return (
                     <GalleryItem
                     key= {gallery.id}
-                    path= {gallery.path}
-                    description= {gallery.description}
-                    likes= {gallery.likes} />
+                    gallery= {gallery} />
                 )
             })}
         </ul>

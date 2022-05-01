@@ -1,8 +1,9 @@
 function GalleryItem({gallery}) {
     return (
-        <li>
-            
-        </li>
+        <div>
+        <img src={gallery.path} />
+        <p>{gallery.description}</p>
+        </div>
     )
 }
 
