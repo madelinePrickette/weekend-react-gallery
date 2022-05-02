@@ -1,8 +1,12 @@
+import LikeButton from "./LikeButton";
+import DescriptionSwap from "./DescriptionSwap";
+
 function GalleryItem({gallery}) {
     return (
         <div>
         <img src={gallery.path} />
-        <p>{gallery.description}</p>
+        <DescriptionSwap />
+        <LikeButton />
         </div>
     )
 }

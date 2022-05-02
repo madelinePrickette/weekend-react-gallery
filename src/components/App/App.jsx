@@ -24,16 +24,6 @@ const [galleryList, setGalleryList] = useState([]);
   })
 }
 
-const likeAPic = () => {
-  axios({
-    methos: 'PUT',
-    url: '/gallery'
-  })
-}
-
-
-
-
     return (
       <div className="App">
         <header className="App-header">
@@ -49,7 +39,6 @@ const likeAPic = () => {
         <img src="images/small-cat-meow.jpg"/>
         <img src="images/steve.jpg"/>
         <img src="images/white-cat.jpg"/> */}
-        
       </div>
     );
 }
